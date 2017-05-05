@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044824201EBC0CDA0017C6BC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0448241F1EBC0CDA0017C6BC /* libsqlite3.tbd */; };
+		610FA0101B43D36F00CA50C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA00F1B43D36F00CA50C6 /* main.m */; };
+		610FA0131B43D36F00CA50C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0121B43D36F00CA50C6 /* AppDelegate.m */; };
+		610FA01B1B43D36F00CA50C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610FA01A1B43D36F00CA50C6 /* Images.xcassets */; };
+		610FA01E1B43D36F00CA50C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610FA01C1B43D36F00CA50C6 /* LaunchScreen.xib */; };
+		610FA02A1B43D36F00CA50C6 /* JKDBModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0291B43D36F00CA50C6 /* JKDBModelTests.m */; };
+		610FA0371B43D42E00CA50C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610FA0341B43D42E00CA50C6 /* Main.storyboard */; };
+		610FA0381B43D42E00CA50C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA0361B43D42E00CA50C6 /* ViewController.m */; };
+		610FA03E1B43D43B00CA50C6 /* Depart.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA03B1B43D43B00CA50C6 /* Depart.m */; };
+		610FA03F1B43D43B00CA50C6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 610FA03D1B43D43B00CA50C6 /* User.m */; };
+		6157C3A51B5B3A1800592F3F /* QueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6157C3A41B5B3A1800592F3F /* QueryTableViewController.m */; };
+		616E570D1C8DDEC182BFF357 /* libPods-JKDBModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA25A783B3DA0A72D9B6592 /* libPods-JKDBModel.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		610FA0241B43D36F00CA50C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610FA0021B43D36F00CA50C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 610FA0091B43D36F00CA50C6;
+			remoteInfo = JKDBModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0448241F1EBC0CDA0017C6BC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		610FA00A1B43D36F00CA50C6 /* JKDBModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKDBModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610FA00E1B43D36F00CA50C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610FA00F1B43D36F00CA50C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		610FA0111B43D36F00CA50C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		610FA0121B43D36F00CA50C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		610FA01A1B43D36F00CA50C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		610FA01D1B43D36F00CA50C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		610FA0231B43D36F00CA50C6 /* JKDBModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKDBModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		610FA0281B43D36F00CA50C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610FA0291B43D36F00CA50C6 /* JKDBModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDBModelTests.m; sourceTree = "<group>"; };
+		610FA0341B43D42E00CA50C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		610FA0351B43D42E00CA50C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		610FA0361B43D42E00CA50C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		610FA03A1B43D43B00CA50C6 /* Depart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Depart.h; sourceTree = "<group>"; };
+		610FA03B1B43D43B00CA50C6 /* Depart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Depart.m; sourceTree = "<group>"; };
+		610FA03C1B43D43B00CA50C6 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		610FA03D1B43D43B00CA50C6 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		6157C3A31B5B3A1800592F3F /* QueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryTableViewController.h; sourceTree = "<group>"; };
+		6157C3A41B5B3A1800592F3F /* QueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryTableViewController.m; sourceTree = "<group>"; };
+		6DB4C91F1A98FA053171B00D /* Pods-JKDBModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDBModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel.debug.xcconfig"; sourceTree = "<group>"; };
+		7AA25A783B3DA0A72D9B6592 /* libPods-JKDBModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKDBModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1751AE22BE5670E40AD7917 /* Pods-JKDBModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDBModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610FA0071B43D36F00CA50C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044824201EBC0CDA0017C6BC /* libsqlite3.tbd in Frameworks */,
+				616E570D1C8DDEC182BFF357 /* libPods-JKDBModel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610FA0201B43D36F00CA50C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0448240C1EBC06120017C6BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0448241F1EBC0CDA0017C6BC /* libsqlite3.tbd */,
+				7AA25A783B3DA0A72D9B6592 /* libPods-JKDBModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		610FA0011B43D36F00CA50C6 = {
+			isa = PBXGroup;
+			children = (
+				610FA00C1B43D36F00CA50C6 /* JKDBModel */,
+				610FA0261B43D36F00CA50C6 /* JKDBModelTests */,
+				610FA00B1B43D36F00CA50C6 /* Products */,
+				0448240C1EBC06120017C6BC /* Frameworks */,
+				C787E7D58159AE68DC34AAE1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		610FA00B1B43D36F00CA50C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610FA00A1B43D36F00CA50C6 /* JKDBModel.app */,
+				610FA0231B43D36F00CA50C6 /* JKDBModelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610FA00C1B43D36F00CA50C6 /* JKDBModel */ = {
+			isa = PBXGroup;
+			children = (
+				610FA0391B43D43B00CA50C6 /* Models */,
+				610FA0331B43D42E00CA50C6 /* Controllers */,
+				610FA0111B43D36F00CA50C6 /* AppDelegate.h */,
+				610FA0121B43D36F00CA50C6 /* AppDelegate.m */,
+				610FA01A1B43D36F00CA50C6 /* Images.xcassets */,
+				610FA01C1B43D36F00CA50C6 /* LaunchScreen.xib */,
+				610FA00D1B43D36F00CA50C6 /* Supporting Files */,
+			);
+			path = JKDBModel;
+			sourceTree = "<group>";
+		};
+		610FA00D1B43D36F00CA50C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				610FA00E1B43D36F00CA50C6 /* Info.plist */,
+				610FA00F1B43D36F00CA50C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		610FA0261B43D36F00CA50C6 /* JKDBModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				610FA0291B43D36F00CA50C6 /* JKDBModelTests.m */,
+				610FA0271B43D36F00CA50C6 /* Supporting Files */,
+			);
+			path = JKDBModelTests;
+			sourceTree = "<group>";
+		};
+		610FA0271B43D36F00CA50C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				610FA0281B43D36F00CA50C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		610FA0331B43D42E00CA50C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6157C3A31B5B3A1800592F3F /* QueryTableViewController.h */,
+				6157C3A41B5B3A1800592F3F /* QueryTableViewController.m */,
+				610FA0341B43D42E00CA50C6 /* Main.storyboard */,
+				610FA0351B43D42E00CA50C6 /* ViewController.h */,
+				610FA0361B43D42E00CA50C6 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		610FA0391B43D43B00CA50C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				610FA03A1B43D43B00CA50C6 /* Depart.h */,
+				610FA03B1B43D43B00CA50C6 /* Depart.m */,
+				610FA03C1B43D43B00CA50C6 /* User.h */,
+				610FA03D1B43D43B00CA50C6 /* User.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C787E7D58159AE68DC34AAE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DB4C91F1A98FA053171B00D /* Pods-JKDBModel.debug.xcconfig */,
+				B1751AE22BE5670E40AD7917 /* Pods-JKDBModel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610FA0091B43D36F00CA50C6 /* JKDBModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610FA02D1B43D36F00CA50C6 /* Build configuration list for PBXNativeTarget "JKDBModel" */;
+			buildPhases = (
+				CFF7F02B738538468607A4C4 /* [CP] Check Pods Manifest.lock */,
+				610FA0061B43D36F00CA50C6 /* Sources */,
+				610FA0071B43D36F00CA50C6 /* Frameworks */,
+				610FA0081B43D36F00CA50C6 /* Resources */,
+				DB981F84B620CB2FC372AE99 /* [CP] Embed Pods Frameworks */,
+				D85434B17D09388D6FDCF8E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKDBModel;
+			productName = JKDBModel;
+			productReference = 610FA00A1B43D36F00CA50C6 /* JKDBModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		610FA0221B43D36F00CA50C6 /* JKDBModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610FA0301B43D36F00CA50C6 /* Build configuration list for PBXNativeTarget "JKDBModelTests" */;
+			buildPhases = (
+				610FA01F1B43D36F00CA50C6 /* Sources */,
+				610FA0201B43D36F00CA50C6 /* Frameworks */,
+				610FA0211B43D36F00CA50C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				610FA0251B43D36F00CA50C6 /* PBXTargetDependency */,
+			);
+			name = JKDBModelTests;
+			productName = JKDBModelTests;
+			productReference = 610FA0231B43D36F00CA50C6 /* JKDBModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610FA0021B43D36F00CA50C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					610FA0091B43D36F00CA50C6 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = WU2WFZ2B66;
+						ProvisioningStyle = Manual;
+					};
+					610FA0221B43D36F00CA50C6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 610FA0091B43D36F00CA50C6;
+					};
+				};
+			};
+			buildConfigurationList = 610FA0051B43D36F00CA50C6 /* Build configuration list for PBXProject "JKDBModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610FA0011B43D36F00CA50C6;
+			productRefGroup = 610FA00B1B43D36F00CA50C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610FA0091B43D36F00CA50C6 /* JKDBModel */,
+				610FA0221B43D36F00CA50C6 /* JKDBModelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610FA0081B43D36F00CA50C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610FA01E1B43D36F00CA50C6 /* LaunchScreen.xib in Resources */,
+				610FA01B1B43D36F00CA50C6 /* Images.xcassets in Resources */,
+				610FA0371B43D42E00CA50C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610FA0211B43D36F00CA50C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFF7F02B738538468607A4C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D85434B17D09388D6FDCF8E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB981F84B620CB2FC372AE99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKDBModel/Pods-JKDBModel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610FA0061B43D36F00CA50C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610FA0131B43D36F00CA50C6 /* AppDelegate.m in Sources */,
+				610FA03F1B43D43B00CA50C6 /* User.m in Sources */,
+				6157C3A51B5B3A1800592F3F /* QueryTableViewController.m in Sources */,
+				610FA0381B43D42E00CA50C6 /* ViewController.m in Sources */,
+				610FA03E1B43D43B00CA50C6 /* Depart.m in Sources */,
+				610FA0101B43D36F00CA50C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610FA01F1B43D36F00CA50C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610FA02A1B43D36F00CA50C6 /* JKDBModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		610FA0251B43D36F00CA50C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 610FA0091B43D36F00CA50C6 /* JKDBModel */;
+			targetProxy = 610FA0241B43D36F00CA50C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		610FA01C1B43D36F00CA50C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610FA01D1B43D36F00CA50C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610FA02B1B43D36F00CA50C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		610FA02C1B43D36F00CA50C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		610FA02E1B43D36F00CA50C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB4C91F1A98FA053171B00D /* Pods-JKDBModel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				INFOPLIST_FILE = JKDBModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengsl.JKDBModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8ab8b6a-3b50-427d-9be5-e00f21647e2b";
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+			};
+			name = Debug;
+		};
+		610FA02F1B43D36F00CA50C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1751AE22BE5670E40AD7917 /* Pods-JKDBModel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				INFOPLIST_FILE = JKDBModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengsl.JKDBModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8ab8b6a-3b50-427d-9be5-e00f21647e2b";
+				PROVISIONING_PROFILE_SPECIFIER = developAll;
+			};
+			name = Release;
+		};
+		610FA0311B43D36F00CA50C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JKDBModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKDBModel.app/JKDBModel";
+			};
+			name = Debug;
+		};
+		610FA0321B43D36F00CA50C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JKDBModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKDBModel.app/JKDBModel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610FA0051B43D36F00CA50C6 /* Build configuration list for PBXProject "JKDBModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610FA02B1B43D36F00CA50C6 /* Debug */,
+				610FA02C1B43D36F00CA50C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610FA02D1B43D36F00CA50C6 /* Build configuration list for PBXNativeTarget "JKDBModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610FA02E1B43D36F00CA50C6 /* Debug */,
+				610FA02F1B43D36F00CA50C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610FA0301B43D36F00CA50C6 /* Build configuration list for PBXNativeTarget "JKDBModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610FA0311B43D36F00CA50C6 /* Debug */,
+				610FA0321B43D36F00CA50C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610FA0021B43D36F00CA50C6 /* Project object */;
+}

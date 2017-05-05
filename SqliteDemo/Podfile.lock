@@ -1,0 +1,21 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - SqliteLibrary (0.0.2):
+    - FMDB (~> 2.0)
+
+DEPENDENCIES:
+  - SqliteLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  SqliteLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  SqliteLibrary: 37247363de062425016068c95abefe3b31dbd550
+
+PODFILE CHECKSUM: ee15196c70365674c10a120f538db9d78dc9a129
+
+COCOAPODS: 1.1.1
