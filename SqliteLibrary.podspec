@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SqliteLibrary'
-  s.version      = '0.0.2'
+  s.version      = '0.0.3'
   s.summary      = 'SqliteLibrary is a high level request util based on FMDB.'
   s.homepage     = 'https://github.com/chengshiliang/SqliteLibrary'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }

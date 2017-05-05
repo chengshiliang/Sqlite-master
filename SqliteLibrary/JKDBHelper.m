@@ -30,7 +30,7 @@ static JKDBHelper *_instance = nil;
 
 + (NSString *)dbPath
 {
-    NSString *docsdir = @"/Users/Mac/Desktop";
+    NSString *docsdir = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
     NSFileManager *filemanage = [NSFileManager defaultManager];
     docsdir = [docsdir stringByAppendingPathComponent:@"CSLSQLITE"];
     BOOL isDir;
